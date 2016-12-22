@@ -25,14 +25,18 @@ Time Complexity:  O(log n)
 4. InRange(ID1, ID2)
 
 Desc: Print the total count for IDs between ID1 and ID2 inclusively. Note, ID1 ≤ ID2
+
 Time Complexity: O(log n + s) where s is the number of IDs in the range.
 
 
 5. Next(theID)
-Print the ID and the count of the event with the lowest ID that is greater that theID. Print “0 0”, if there is no next ID.
-  O(log n)
+Desc: Print the ID and the count of the event with the lowest ID that is greater that theID. Print “0 0”, if there is no next ID.
+
+Time Complexity: O(log n)
 
 
 6. Previous(theID)
-Print the ID and the count of the event with the greatest key that is less that theID. Print “0 0”, if there is no previous ID.
-  O(log n)
+
+Desc: Print the ID and the count of the event with the greatest key that is less that theID. Print “0 0”, if there is no previous ID.
+
+Time Complexity: O(log n)
