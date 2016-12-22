@@ -23,8 +23,9 @@ Time Complexity:  O(log n)
 
 
 4. InRange(ID1, ID2)
-Print the total count for IDs between ID1 and ID2 inclusively. Note, ID1 ≤ ID2
-  O(log n + s) where s is the number of IDs in the range.
+
+Desc: Print the total count for IDs between ID1 and ID2 inclusively. Note, ID1 ≤ ID2
+Time Complexity: O(log n + s) where s is the number of IDs in the range.
 
 
 5. Next(theID)
