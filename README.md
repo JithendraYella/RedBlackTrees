@@ -7,7 +7,8 @@ Desc: Increase the count of the event theID by m. If theID is not present, inser
 
 Time Complexity: O(log n)
 
-2. Reduce(theID, m)
+
+Reduce(theID, m)
 
 Desc: Decrease the count of theID by m. If theID’s count becomes less than or equal to 0, remove theID from the counter. Print the count of theID after the deletion, or 0 if theID is removed or not present.
 
